@@ -927,8 +927,8 @@ class GeneralSettingsController extends Controller
         $env_val['RAZORPAY_API_SECRET'] = $request->razorpay_api_secret ? : 'Nenvq0aYArtYBDOGgmMH7JNv';
         $env_val['RAZORPAY_TESTMODE'] = $request->razorpay_test_mode ? true : false;
 
-        $env_val['STRIPE_PUBLIC_KEY'] = $request->stripe_public_key ? : 'pk_test_51GwS1SEmGOuJLTMsIeYKFtfAT3o3Fc6IOC7wyFmmxA2FIFQ3ZigJ2z1s4ZOweKQKlhaQr1blTH9y6HR2PMjtq1Rx00vqE8LO0x';
-        $env_val['STRIPE_SECRET_KEY'] = $request->stripe_secret_key ? : 'sk_test_51GwS1SEmGOuJLTMs2vhSliTwAGkOt4fKJMBrxzTXeCJoLrRu8HFf4I0C5QuyE3l3bQHBJm3c0qFmeVjd0V9nFb6Z00VrWDJ9Uw';
+        $env_val['STRIPE_PUBLIC_KEY'] = $request->stripe_public_key ? : 'pk_test';
+        $env_val['STRIPE_SECRET_KEY'] = $request->stripe_secret_key ? : 'sk_test';
         $env_val['STRIPE_TEST_MODE'] = $request->stripe_test_mode ? true : false;
 
         $env_val['PAYTM_MERCHANT_ID'] = $request->paytm_merchant_mid ?: 'Digita57697814558795';
@@ -957,8 +957,8 @@ class GeneralSettingsController extends Controller
         $env_val['MYR_EXCHANGE_RATE'] = $request->$myr_currency_filed_name ?? '50';
 
         $env_val['MIDTRANS_MERCHANT_ID'] = $request->midtrans_merchant_id ? : 'G770543580';
-        $env_val['MIDTRANS_SERVER_KEY'] =  $request->midtrans_server_key ? : 'SB-Mid-server-9z5jztsHyYxEdSs7DgkNg2on';
-        $env_val['MIDTRANS_CLIENT_KEY'] =  $request->midtrans_client_key ? : 'SB-Mid-client-iDuy-jKdZHkLjL_I';
+        $env_val['MIDTRANS_SERVER_KEY'] =  $request->midtrans_server_key ? : 'SB-Mid';
+        $env_val['MIDTRANS_CLIENT_KEY'] =  $request->midtrans_client_key ? : 'SB-Mid';
         $env_val['MIDTRANS_ENVIRONTMENT'] =  $request->midtrans_test_mode ? true : false;
 
 
