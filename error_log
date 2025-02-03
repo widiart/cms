@@ -1,0 +1,2 @@
+[30-Jan-2023 01:22:22 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1961984 bytes) in /home/maxyprime/public_html/new/@core/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php on line 108
+[30-Jan-2023 01:29:28 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 1961984 bytes) in /home/maxyprime/public_html/new/@core/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php on line 108
